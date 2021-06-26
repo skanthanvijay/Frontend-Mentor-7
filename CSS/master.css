@@ -1,0 +1,212 @@
+/* CSS Elements */
+
+body {
+  font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 1px;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 15px;
+  color: hsl(333, 80%, 67%);
+}
+
+h3, p {
+  line-height: 1.4;
+  font-size: 15px;
+}
+
+
+/* Main Container */
+
+.main-container {
+  display: grid;
+  padding: 7% 9%;
+}
+
+.half-container {
+  display: flex;
+}
+
+
+/* Text Box */
+
+.text-box {
+  width: 40%;
+  margin-left: 20px;
+}
+
+.sub-text {
+  color: hsl(303, 10%, 53%);
+  margin-top: 9px;
+}
+
+
+/* Ratings */
+
+.rating-box {
+  margin-left: 5%;
+}
+
+.rating {
+  border-radius: 10px;
+  display: flex;
+  margin: 20px;
+  padding: 0 40px;
+  background-color: hsl(300, 24%, 96%);
+  overflow: hidden;
+  position: relative;
+}
+
+.rating-div {
+  margin: 0 7px;
+}
+
+.rating-text {
+  color:  hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+
+.Reviews {
+  left: 0;
+}
+
+.Rep-Guru {
+  left: 8%;
+}
+
+.BestTech {
+  left: 16%;
+}
+
+
+/* Testimonial Cards */
+
+.testimonial-box {
+  margin-top: 3%;
+}
+
+.testimonial-card {
+  color: white;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 20px 25px;
+  margin: 20px;
+  width: 60%;
+  height: 65%;
+  position: relative;
+}
+
+.test-card-top {
+  align-items: center;
+}
+
+.testimonial-photo {
+  margin-right: 20px;
+  height: 45px;
+  width: auto;
+  float: left;
+  border-radius: 60px;
+  overflow: hidden;
+}
+
+.test-photo-text {
+  margin: 5px;
+}
+
+.Colton {
+  top: 0;
+}
+
+.Irene {
+  top: 7%;
+}
+
+.Anne {
+  top: 14%;
+}
+
+
+
+/* Media Query for Mobile */
+
+@media (max-width: 800px) {
+
+  /* CSS Elements */
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  /* Main Container */
+  .main-container {
+    display: grid;
+  }
+
+  .half-container {
+    display: grid;
+  }
+
+  /* Text Box */
+  .text-box {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Ratings */
+  .rating-box {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .rating {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  .rating-div {
+    text-align: center;
+  }
+
+  .Rep-Guru {
+    left: 0%;
+  }
+
+  .BestTech {
+    left: 0%;
+  }
+
+  /* Testimonials */
+  .testimonial-box {
+    display: grid;
+    padding: 5% 0;
+  }
+
+  .testimonial-card {
+    width: 83%;
+    height: 175px;
+    margin: 10px 0;
+  }
+
+  .Irene {
+    top: 0;
+  }
+
+  .Anne {
+    top: 0;
+  }
+
+}
