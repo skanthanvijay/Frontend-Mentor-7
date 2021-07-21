@@ -31,21 +31,6 @@
   },
   {
     "id": 3,
-    "company": "Account",
-    "logo": "./images/account.svg",
-    "new": true,
-    "featured": false,
-    "position": "Junior Frontend Developer",
-    "role": "Frontend",
-    "level": "Junior",
-    "postedAt": "2d ago",
-    "contract": "Part Time",
-    "location": "USA Only",
-    "languages": ["JavaScript"],
-    "tools": ["React", "Sass"]
-  },
-  {
-    "id": 4,
     "company": "FaceIt",
     "logo": "./images/faceit.svg",
     "new": false,
