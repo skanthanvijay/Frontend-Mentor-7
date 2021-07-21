@@ -43,5 +43,14 @@
     "location": "UK Only",
     "languages": ["Ruby"],
     "tools": ["RoR"]
+  },
+  {
+    "id": 4,
+    "company": "Shortly",
+    "logo": "./images/shortly.svg",
+    "new": false,
+    "featured": false,
+    "position": "Junior Developer",
+    "role": "Frontend"
   }
 ]
