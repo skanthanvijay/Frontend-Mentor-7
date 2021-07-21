@@ -51,6 +51,9 @@
     "new": false,
     "featured": false,
     "position": "Junior Developer",
-    "role": "Frontend"
+    "role": "Frontend",
+    "level": "Junior",
+    "postedAt": "2w ago",
+    "contract": "Full Time"
   }
 ]
